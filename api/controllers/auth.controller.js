@@ -13,6 +13,9 @@ try{
     // creating custom error NOT neccessary for this case but,
     // in some cases we need to handle the error (ex : psw too short) 
     // next(errorHandler(550, 'error from the function (ana derto, not default)'))
+
+    // here we use the middlware, and dont forget that 'next()' 
+    // was passed as a prop to the signup/this func
     next(error)
 }
 
