@@ -7,5 +7,5 @@ export const errorHandler = (statusCode, message) => {
   // message to the new constructed error
   error.statusCode = statusCode;
   error.message = message;
-  return error; // or throw error
+  return error; // throw error
 };
